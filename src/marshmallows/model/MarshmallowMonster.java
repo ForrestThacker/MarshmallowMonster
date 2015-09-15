@@ -36,6 +36,10 @@ public class MarshmallowMonster
 		return monsterEyes;
 	}
 	
+	public int getMonsterNoses()
+	{
+		return monsterNoses;
+	}
 	public void setMonsterName(String monsterName)
 	{
 		this.monsterName = monsterName;
