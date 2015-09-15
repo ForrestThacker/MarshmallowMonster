@@ -38,6 +38,12 @@ public class MonsterController
 		System.out.println("I-I want a new name as a monster, Master! Please rename me?");
 		String newMonsterName = monsterScanner.next();
 		forrestMonster.setMonsterName(newMonsterName);
-	}
+		System.out.println("H-How about we change my nose, Master?");
+		int updateNoses = monsterScanner. nextInt();
+		System.out.println("T-Thank you, Master? How about my eyes now?");
+		int updateEyes = monsterScanner. nextInt();
+		System.out.println("Thank you Master! H-How about my legs now?");
 
-}	
+	}
+	
+}
